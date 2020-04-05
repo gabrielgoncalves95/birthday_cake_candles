@@ -5,7 +5,7 @@ using namespace std;
 vector <string> split_string(string);
 
 // Complete the birthdayCakeCandles function below.
-int birthdayCakeCandles(vector<int> ar) {
+int birthday_cake_candles(vector<int> ar) {
     std::sort(ar.begin(), ar.end());
     int counter = 0, value = 0, count_max = 0;
     for (int i = 0; i < ar.size(); i++) {
@@ -46,7 +46,7 @@ int main() {
         ar[i] = ar_item;
     }
 
-    int result = birthdayCakeCandles(ar);
+    int result = birthday_cake_candles(ar);
 
     fout << result << "\n";
 
